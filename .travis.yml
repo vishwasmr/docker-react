@@ -5,7 +5,7 @@ services:
 before_install:
  - docker build -t vimr/docker-react -f Dockerfile.dev .
 
-install: travis_wait mvn install
+# install: travis_wait mvn install
 
 script:
  - docker run vimr/docker-react npm run test -- --coverage
