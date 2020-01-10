@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Let me try to change this!
+          Chaning this to learn Git!
         </p>
         <a
           className="App-link"
